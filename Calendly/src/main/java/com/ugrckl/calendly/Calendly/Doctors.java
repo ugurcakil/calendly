@@ -5,10 +5,7 @@ import java.util.UUID;
 public class Doctors extends Users implements Specializations {
     private static UUID appointmentID;
     private Integer doctorID;
-    private String firstName;
-    private String lastName;
-    private String mailAddress;
-    private String phoneNumber;
+
     private Specializations[] specializations;
 
     public Doctors(Integer doctorID, String firstName, String lastName, String mailAddress, String phoneNumber, Specializations[] specializations) {

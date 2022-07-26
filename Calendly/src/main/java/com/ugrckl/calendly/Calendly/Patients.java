@@ -6,18 +6,12 @@ import java.util.UUID;
 public class Patients extends Users{
     private static UUID appointmentID;
     private Integer patientID;
-    private String firstName;
-    private String lastName;
-    private String mailAddress;
-    private String phoneNumber;
+
 
     public Patients(Integer patientID, String firstName, String lastName, String mailAddress, String phoneNumber) {
         super(appointmentID);
         this.patientID = patientID;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.mailAddress = mailAddress;
-        this.phoneNumber = phoneNumber;
+
     }
 
     public Integer getPatientID() {
